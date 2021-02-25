@@ -1,0 +1,43 @@
+.list-view {
+    -fx-background-color: #146886;
+    -fx-background-radius: 10;
+}
+
+.list-view .list-cell:hover {
+    -fx-background-color: #208ca2;
+    -fx-background-radius: 10;
+}
+
+.list-view .list-cell:selected {
+    -fx-background-color: #032d4d;
+    -fx-background-radius: 10;
+}
+
+.list-view .list-cell {
+    -fx-background-color: #146886;
+    -fx-text-fill: white;
+    -fx-background-radius: 10;
+}
+
+.list-view .label {
+    -fx-text-fill: white;
+    -fx-background-radius: 10;
+}
+
+.list-view .check-box{
+    -fx-font-size: 20.0;
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-background-radius: 10;
+}
+
+.list-view .scroll-bar{
+    -fx-background-color :transparent;
+    -fx-border-color :transparent;
+    -fx-background-radius : 0.0em;
+    -fx-border-radius :2.0em;
+}
+
+.jfx-rippler {
+    -jfx-rippler-fill: red;
+}
