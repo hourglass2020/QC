@@ -26,7 +26,8 @@ public class MainClass extends Application
     }
 
     @Override
-    public void stop() throws Exception {
+    public void stop() throws Exception
+    {
         map.makeDevicesFile();
         map.saveCompany();
     }
