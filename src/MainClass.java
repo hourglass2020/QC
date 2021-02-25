@@ -26,9 +26,10 @@ public class MainClass extends Application
     }
 
     @Override
+
     public void stop() throws Exception {
 //        map.makeDevicesFile();
-        map.saveCompany();
+       map.saveCompany();
     }
 
     public static void main(String[] args) {
